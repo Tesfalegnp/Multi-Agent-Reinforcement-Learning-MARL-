@@ -1,5 +1,5 @@
 # Multi-Agent Reinforcement Learning (MARL) System
-## 5-Agent Tag Environment with Independent Q-Learning (IQL)
+## 2-Agent Tag Environment with Independent Q-Learning (IQL)
 
 ![Pygame Visualization](https://pettingzoo.farama.org/_images/simple_tag.gif)  
 *Example of the simple_tag_v3 environment from PettingZoo*
@@ -19,9 +19,9 @@
 ---
 
 ## Features
-✅ **5-Agent System**  
-- 2 adversarial agents (chasers) 
-- 3 good agents (evaders)  
+✅ **2-Agent System**  
+- 1 adversarial agents (chasers) 
+- 1 good agents (evaders)  
 
 ✅ **Algorithm**  
 - Independent Q-Learning (IQL) with:  
