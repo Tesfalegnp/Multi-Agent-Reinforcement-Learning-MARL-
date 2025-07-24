@@ -1,8 +1,62 @@
-# MARL with Two Agents - Beginner's Guide
+# Multi-Agent Reinforcement Learning (MARL) System
+## 5-Agent Tag Environment with Independent Q-Learning (IQL)
 
-This project demonstrates Multi-Agent Reinforcement Learning (MARL) with two agents using Independent Q-Learning (IQL) in the `simple_tag_v2` environment from PettingZoo.
+![Pygame Visualization](https://pettingzoo.farama.org/_images/simple_tag.gif)  
+*Example of the simple_tag_v3 environment from PettingZoo*
+
+---
+
+## Table of Contents
+1. [Features](#features)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [Configuration](#configuration)
+5. [Expected Results](#expected-results)
+6. [Troubleshooting](#troubleshooting)
+7. [Project Structure](#project-structure)
+8. [License](#license)
+
+---
+
+## Features
+✅ **5-Agent System**  
+- 2 adversarial agents (chasers) 
+- 3 good agents (evaders)  
+
+✅ **Algorithm**  
+- Independent Q-Learning (IQL) with:  
+  - Epsilon-greedy & Boltzmann exploration  
+  - Adaptive learning rates  
+  - Non-stationarity handling  
+
+✅ **Monitoring**  
+- Real-time Pygame rendering  
+- Training metrics (rewards, coordination, etc.)  
+- Model checkpointing  
+
+✅ **Advanced Metrics**  
+- Reward correlation tracking  
+- Action diversity analysis  
+- Agent specialization visualization  
+
+---
 
 ## Installation
 
-1. Clone this repository
-2. Install dependencies:# MARL-SYSTEM
+### Prerequisites
+- Python 3.8+
+- pip
+
+### Steps
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/marl-5agent-system.git
+cd marl-5agent-system
+
+# Create and activate virtual environment
+python -m venv venv
+source venv/bin/activate  # Linux/MacOS
+venv\Scripts\activate    # Windows
+
+# Install dependencies
+pip install -r requirements.txt
